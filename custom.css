@@ -1,0 +1,183 @@
+
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background: url('../Media/classic-bmw-aesthetic-cars-wallpaper.jpg') no-repeat center center fixed;
+   background-size: cover;
+   color: #333;
+   font-size: 14px; 
+}
+
+header, footer {
+   background-color: rgba(51, 51, 51, 0.8); 
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+}
+
+header img, footer img {
+   display: block;
+   margin: 0 auto;
+}
+
+header h1, footer p {
+   margin: 0;
+}
+
+header nav#mainmenu a {
+   color: #fff;
+   text-decoration: none;
+   padding: 10px 20px;
+   display: inline-block;
+   font-size: 14px;
+}
+
+header nav#mainmenu a:hover {
+   background-color: #575757;
+}
+
+header nav#mainmenu a.active {
+   background-color: #444;
+}
+
+header #pagemenu {
+   margin-top: 20px;
+}
+
+header #pagemenu a {
+   display: inline-block;
+   margin: 0 10px; 
+}
+
+header #pagemenu a img {
+   border-radius: 10px;
+   transition: transform 0.3s ease-in-out;
+}
+
+header #pagemenu a img:hover {
+   transform: scale(1.1);
+}
+
+header img.coll-cover {
+   width: 100%; /* Make the image fit the width of the container */
+   height: auto; /* Maintain the aspect ratio */
+}
+
+
+main {
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.8); /* Added background to make text readable */
+   border-radius: 10px;
+   margin: 20px;
+}
+
+main h2 {
+   color: #444;
+   border-bottom: 2px solid #444;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+}
+
+main section {
+   margin-bottom: 20px;
+}
+
+main video, main iframe {
+   width: 100%;
+   max-width: 600px;
+   border-radius: 10px;
+   margin: 0 auto;
+   display: block;
+}
+
+main p {
+   margin: 20px 0;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 20px 0;
+   background-color: #fff;
+   font-size: 14px; /* Reduced font size */
+}
+
+table caption {
+   font-size: 1.5em;
+   margin: 10px 0;
+}
+
+table th, table td {
+   padding: 12px;
+   border: 1px solid #ddd;
+   text-align: center;
+}
+
+table th {
+   background-color: #444;
+   color: #fff;
+}
+
+table td {
+   font-weight: bold;
+}
+
+table tr:nth-child(even) {
+   background-color: #f9f9f9;
+}
+
+footer {
+   padding: 20px;
+   background-color: rgba(51, 51, 51, 0.8); /* Added transparency */
+   color: #fff;
+   text-align: center;
+}
+
+footer address {
+   margin: 0;
+}
+
+footer a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 14px; /* Reduced font size */
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+/* Video section layout */
+.video-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+.video-container section {
+   flex: 1;
+   margin: 10px;
+   max-width: 45%;
+}
+
+.video-container section.center {
+   max-width: 100%;
+   text-align: center;
+}
+
+.video-container section figcaption {
+   text-align: center;
+   margin-top: 10px;
+}
+
+video, iframe {
+   height: 400px;
+}
+
+main img {
+   width: 30%; /* Adjust the width of the images */
+   margin: 10px; /* Add margin around the images */
+}

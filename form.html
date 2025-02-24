@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>E-Garage - Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav id="skip">
+            <a href="#content">Skip to main content</a>
+        </nav>
+        <img height="75" width="75" src="Media/E-Garage.jpg" alt="E-Garage Logo">
+        <h1>E-Garage</h1>
+        <nav id="mainmenu">
+            <a href="index.html">Homepage</a> | <a href="form.html"><b>Form</b></a> | <a href="bmw.html">BWM</a> | <a href="audi.html">Audi</a> | <a href="porsche.html">Porsche</a>
+        </nav>
+        <img class="coll-cover" src="Media/coll_4_cover.jpg" alt="Car collage">
+        <div id="introduction">
+            <p>Make sure to leave your rating on the car you desire for a chance for your review to be featured on our website!</p>
+        </div>
+    </header>
+    <main>
+        <form action="mailto:eyejb2@inf.elte.hu" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="Name"><strong>Name</strong></label><br>
+                <input type="text" name="Name" id="Name" size="60" maxlength="80"><br>
+                <label for="Email"><strong>Email Address</strong></label><br>
+                <input type="email" name="Email" id="Email" size="60" maxlength="60"><br>
+                <input type="checkbox" name="Terms" id="Terms" value="yes">
+                <label for="Terms">I accept Terms and Conditions</label><br>
+                <input type="checkbox" name="news" id="news" value="yes" checked>
+                <label for="news">I would like to receive latest news and reviews</label>
+            </fieldset>
+            <fieldset>
+                <legend>Car Information</legend>
+                <label for="Brand"><strong>Brand</strong></label><br>
+                <input type="text" name="Brand" id="Brand" size="60" maxlength="60"><br>
+                <label for="Model"><strong>Model</strong></label><br>
+                <input type="text" name="Model" id="Model" size="60" maxlength="60"><br>
+                <label for="Year"><strong>Year</strong></label><br>
+                <input type="number" name="Year" id="Year" min="1886" max="2025"><br>
+                <label for="Review"><strong>Review</strong></label><br>
+                <textarea cols="60" rows="10" name="Review" id="Review" placeholder="My review here..." maxlength="1000"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Rating</legend>
+                Rate the car from 1 to 5<br>
+                    <div>
+                        <input type="radio" name="rating" id="a1" value="1">
+                        <label for="a1">1 - Big Fail</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rating" id="a2" value="2">
+                        <label for="a2">2 - Older/Other Models are better</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rating" id="a3" value="3">
+                        <label for="a3">3 - It's Okay</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rating" id="a4" value="4">
+                        <label for="a4">4 - This car is a big upgrade</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rating" id="a5" value="5">
+                        <label for="a5">5 - Dream Car</label>
+                    </div>
+                
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <address>
+            <p>Author: Bahaa Abou Moughelbey (<a href="mailto:bahaa.bm1@gmail.com">bahaa.bm1@gmail.com</a>)</p>
+        </address>
+    </footer>
+</body>
+
+</html>
